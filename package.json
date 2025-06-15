@@ -1,0 +1,28 @@
+{
+  "name": "bookshelf",
+  "version": "1.0.0",
+  "main": "dist/server.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/server.ts",
+    "dev": "ts-node src/server.ts",
+    "dev:watch": "nodemon --exec ts-node src/server.ts",
+    "clean": "rm -rf dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/hapi": "^21.4.0",
+    "nanoid": "^3.3.11"
+  },
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^24.0.1",
+    "@types/hapi__hapi": "^20.0.13",
+    "nodemon": "^3.1.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
